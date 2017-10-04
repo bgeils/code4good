@@ -1,0 +1,136 @@
+/* CSS declarations go here */
+html{
+	margin:0; 
+	padding:0;	
+	-webkit-font-smoothing: antialiased;
+}
+
+#map {
+  	position:absolute; 
+	top:0; 
+	bottom:0; 
+	width:100%; 
+}
+
+
+#overlay {
+	overflow-y: scroll;
+	    -webkit-transition: opacity 0.5s ease-in;
+       -moz-transition: opacity 0.5s ease-in;
+        -ms-transition: opacity 0.5s ease-in;
+         -o-transition: opacity 0.5s ease-in;
+            transition: opacity 0.5s ease-in;
+
+
+	opacity: 0;
+    position: absolute; /* Sit on top of the page content */
+    width: 400px; /* Full width (cover the whole page) */
+    height: 100%-20px; /* Full height (cover the whole page) */
+    border-radius: 40px;
+    margin: 40px;
+    top: 20px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#title{
+	position: absolute; /* Sit on top of the page content */
+    width: auto; /* Full width (cover the whole page) */
+    height: 20px; /* Full height (cover the whole page) */
+    text-align: center;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    top: 10px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: 900;
+}
+
+.medic {
+  background-image: url('https://infolific.com/images/first-aid/first-aid-symbol.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+.food {
+  background-image: url('http://galenaguide.com/wp-content/uploads/2013/04/food-icon.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+.water {
+  background-image: url('https://maxcdn.icons8.com/Share/icon/color/Industry//water1600.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.house {
+  background-image: url('http://www.groupils.com/wp-content/uploads/2016/02/shelters-icon-3.jpg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+h5 {
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+
+
+.body-text{
+	margin-top: 40px;
+	width: 350px;
+	margin-left: 20px;
+	color: white;
+	font-size: 18pt;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+	ul {
+		font-size: 14pt;
+	}
+	p{
+		font-size: 12pt;
+	}
+	.center{
+		text-align: center;
+
+		button{
+			font-size: 16pt;
+			outline: none;
+			color: white;
+		}
+	}
+
+}
+
+.medic-img{
+	float: right;
+	height: 70px;
+	width: 70px;
+	background-size: cover;
+	border-radius: 50%;
+
+}

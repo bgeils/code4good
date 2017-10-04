@@ -1,0 +1,14 @@
+{
+	"public":{
+			"facebook_app":{
+				"env": "Production",
+				"appId": 331269613968397
+		},
+		"mango_menu": "https://mango.sodimasolutions.com/v1/chatbot/menu"
+	},
+	"private":{
+		"facebook_app":{
+			"appSecret": "61e19f5d54cce2576c2323d8bcdb1009"	
+		}	
+	}
+}
